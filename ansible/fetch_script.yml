@@ -1,0 +1,12 @@
+- name: Execute script with inputdate
+  hosts: all
+  vars:
+    inputdate: "20251912"  # Example date in YYYYMMDD format
+  tasks:
+    - name: Run script with inputdate argument
+      ansible.builtin.shell: "/home/bitroidprod/scripts/script.sh -p{{ inputdate }} fetch"
+      register: script_output
+
+    - name: Display script output
+      debug:
+        var: script_output.stdout
