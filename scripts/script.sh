@@ -3,7 +3,7 @@
 # --- CONFIGURATION ---
 REMOTE_USER="bitroidprod"
 REMOTE_HOST="193.16.34.10"
-REMOTE_CRED="a3sd5f1a6sd5f1asf"
+REMOTE_CRED="uhZtofOcNnzoH6F5-m0bzsLvCqIjzNFG"
 REMOTE_DIR="/home/bitroidprod/logs"
 LOCAL_DIR="/home/bitroidprod/logs"
 # ---------------------
